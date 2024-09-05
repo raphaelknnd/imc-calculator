@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+/* <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.pixelify-sans-<uniquifier> {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+/* reset css */
+html {
+    font-size: 62.5%;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* declaração de variáveis */
+:root {
+    --background: #d68b00;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container {
+    display: flex;
+    background-color: #d68b00;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 3rem;
+}
